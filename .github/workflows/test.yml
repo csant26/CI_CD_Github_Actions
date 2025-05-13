@@ -117,7 +117,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout Code for Smoke test
-              uses: actions/checkout@v4
+              uses: actions/checkout@v3
 
             - name: Setup the SDK
               uses: actions/setup-dotnet@v4
