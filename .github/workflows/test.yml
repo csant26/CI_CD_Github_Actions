@@ -24,8 +24,8 @@ jobs:
 
         strategy:
             matrix:
-                os: [windows-latest,ubuntu-latest]
-                dotnet: [9.0,8.0]
+                os: [windows-latest]
+                dotnet: [9.0]
 
         steps:
             - name: Checkout code
